@@ -1,0 +1,22 @@
+# To use:
+#   $ conda env create -f fpwbs_v1.yml
+#   $ conda activate fpwbs_v1
+
+name: fpwbs_v1
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - tensorflow-gpu
+  - pandas
+  - numpy
+  - ipykernel
+  - nodejs
+  - opencv
+  - pip
+  - requests
+  - pillow
+  - scikit-learn
+  - jupyter
+  - matplotlib
+  - scikit-image
